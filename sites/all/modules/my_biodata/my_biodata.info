@@ -1,0 +1,14 @@
+name = my_biodata
+description = This is my biodata
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = my_biodata
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_name
+features[field_instance][] = node-biodata-field_name
+features[node][] = biodata
+features_exclude[field_base][field_quali] = field_quali
+features_exclude[field_instance][node-biodata-field_quali] = node-biodata-field_quali

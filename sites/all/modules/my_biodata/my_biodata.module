@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the my_biodata feature.
+ */
+
+include_once 'my_biodata.features.inc';
